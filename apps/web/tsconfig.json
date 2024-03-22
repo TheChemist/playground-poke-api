@@ -1,0 +1,33 @@
+{
+  "extends": "@repo/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "next.config.js",
+    "**/*.js",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "../../packages/ui/src/components/ui/badge.tsx",
+    "../../packages/ui/src/components/ui/button.tsx",
+    "../../packages/ui/src/components/ui/command.tsx",
+    "../../packages/ui/src/components/ui/dialog.tsx",
+    "../../packages/ui/src/components/ui/dropdown-menu.tsx",
+    "../../packages/ui/src/components/ui/input.tsx",
+    "app/_components/pagination.tsx",
+    "../../packages/ui/src/components/ui/popover.tsx",
+    "../../packages/ui/src/components/ui/select.tsx",
+    "../../packages/ui/src/components/ui/separator.tsx",
+    "../../packages/ui/src/components/ui/sonner.tsx",
+    "../../packages/ui/src/components/ui/table.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
