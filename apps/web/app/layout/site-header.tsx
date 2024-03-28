@@ -1,5 +1,5 @@
+import { PokemonIcon } from "@/lib/icons/icon-pokemon";
 import Link from "next/link";
-import { PokemonIcon } from "../../lib/icons/icon-pokemon";
 import { ModeToggle } from "../_components/mode-toggle";
 
 export function SiteHeader() {

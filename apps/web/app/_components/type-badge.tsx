@@ -1,5 +1,5 @@
+import { TOption, TPokemonType } from "@/lib/types";
 import { Badge } from "@repo/ui/components/ui/badge";
-import { TOption, TPokemonType } from "../../lib/types";
 
 export function TypeBadge({
   typeOption,

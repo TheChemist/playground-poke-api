@@ -1,4 +1,4 @@
-import { LoadingIcon } from "../lib/icons/icon-loading";
+import { LoadingIcon } from "@/lib/icons/icon-loading";
 import loading from "./loading.module.css";
 
 export default function Loading() {

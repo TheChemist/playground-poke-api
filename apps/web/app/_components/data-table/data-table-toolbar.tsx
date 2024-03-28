@@ -1,10 +1,10 @@
 "use client";
 
+import { PokemonTypesOptions } from "@/lib/data";
 import { Button } from "@repo/ui/components/ui/button";
 import { Input } from "@repo/ui/components/ui/input";
 import { type Table } from "@tanstack/react-table";
 import { XIcon } from "lucide-react";
-import { PokemonTypesOptions } from "../../../lib/data";
 import { DataTableFacetedFilter } from "./data-table-faceted-filter";
 import { DataTableViewOptions } from "./data-table-view-options";
 

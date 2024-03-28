@@ -1,5 +1,6 @@
 "use client";
 
+import { fetchPokemonPage } from "@/lib/api";
 import { Button } from "@repo/ui/components/ui/button";
 import {
   Select,
@@ -11,7 +12,6 @@ import {
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import { useState, useTransition } from "react";
-import { fetchPokemonPage } from "../lib/api";
 import Loading from "./loading";
 import PokemonOverview from "./pokemon-overview";
 

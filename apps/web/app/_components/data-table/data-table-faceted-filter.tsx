@@ -1,3 +1,4 @@
+import { TOption, TPokemonType } from "@/lib/types";
 import { Badge } from "@repo/ui/components/ui/badge";
 import { Button } from "@repo/ui/components/ui/button";
 import {
@@ -18,7 +19,6 @@ import { Separator } from "@repo/ui/components/ui/separator";
 import { cn } from "@repo/ui/lib/utils";
 import { type Column } from "@tanstack/react-table";
 import { CheckIcon, FilterIcon } from "lucide-react";
-import { TOption, TPokemonType } from "../../../lib/types";
 import { TypeBadge } from "../type-badge";
 
 type DataTableFacetedFilterProps<TData, TValue> = {

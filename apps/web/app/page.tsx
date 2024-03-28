@@ -1,12 +1,12 @@
+import { fetchPokemonPage } from "@/lib/api";
 import {
   HydrationBoundary,
   QueryClient,
   dehydrate,
 } from "@tanstack/react-query";
 import { Suspense } from "react";
-import { fetchPokemonPage } from "../lib/api";
 import Loading from "./loading";
-import PokemomPage from "./pokemon-page";
+import PokemonPage from "./pokemon-page";
 
 const defaultPage = { limit: 5, offset: 0 };
 
@@ -21,7 +21,7 @@ export default async function Home() {
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
       <Suspense fallback={<Loading />}>
-        <PokemomPage defaultPage={defaultPage} />
+        <PokemonPage defaultPage={defaultPage} />
       </Suspense>
     </HydrationBoundary>
   );

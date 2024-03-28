@@ -1,9 +1,9 @@
 "use client";
 
+import { PokemonTypesOptions } from "@/lib/data";
+import { TPokemon } from "@/lib/types";
 import { ColumnDef } from "@tanstack/react-table";
 import Image from "next/image";
-import { PokemonTypesOptions } from "../lib/data";
-import { TPokemon } from "../lib/types";
 import { DataTableColumnHeader } from "./_components/data-table/data-table-column-header";
 import { TypeBadge } from "./_components/type-badge";
 

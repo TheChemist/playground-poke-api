@@ -1,7 +1,7 @@
 "use client";
 
+import { fetchPokemon } from "@/lib/api";
 import { useSuspenseQueries } from "@tanstack/react-query";
-import { fetchPokemon } from "../lib/api";
 import { DataTable } from "./_components/data-table/data-table";
 import { todoColumns } from "./pokemon-columns";
 

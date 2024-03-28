@@ -1,5 +1,6 @@
 "use client";
 
+import { PokemonSchema } from "@/lib/schemas";
 import { Button } from "@repo/ui/components/ui/button";
 import {
   DropdownMenu,
@@ -11,7 +12,6 @@ import { type Row } from "@tanstack/react-table";
 import { MoreHorizontalIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { PokemonSchema } from "../../../lib/schemas";
 
 type DataTableRowActionsProps<TData> = {
   row: Row<TData>;
